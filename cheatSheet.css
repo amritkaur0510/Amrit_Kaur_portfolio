@@ -1,0 +1,98 @@
+/* ===== CHEAT SHEET PAGE ===== */
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+}
+
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+.logo span {
+  color: #a500f8;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero h1{
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.section h2 {
+  color: #a500f8;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.section pre {
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 12px;
+  overflow-x: auto;
+  border-left: 3px solid #a500f8;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.section {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section pre:hover {
+  background: rgba(165, 0, 248, 0.08);
+  transition: 0.3s;
+}
+.footer {
+  text-align: center;
+  padding: 25px 10%;
+  margin-top: 50px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.02);
+  backdrop-filter: blur(8px);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+/* highlight @name */
+.footer p::first-line {
+  color: #eee9f0;
+  font-weight: normal;
+}
+
+@media (max-width: 768px){
+    .section{
+        width: 80%;
+        overflow-x: hidden;
+
+    }
+}
+
+@media (min-height: 740px) {
+  body {
+    padding-bottom: 50%;
+  }
+}

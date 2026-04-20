@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amrit Kaur | Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <h2 class="logo">AMRIT <span>KAUR</span></h2>
+  <ul>
+    <li><a href="index.html">Resume</a></li>
+    <li><a href="hobby.html">Hobby</a></li>
+    <li><a href="cheatSheetHtml.html">Cheat Sheet</a></li>
+  </ul>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero">
+  <div class="hero-left">
+    <h4>I am Amrit Kaur</h4>
+    <h1>Software Developer</h1>
+    <p>
+      I build modern, responsive and interactive websites with clean UI and smooth performance.
+    </p>
+
+    <a href="#aboutMe">
+  <button>About Me</button>
+</a>
+  </div>
+
+  <div class="hero-right">
+    <img src="imageCover.png" alt="Profile Image">
+  </div>
+</section>
+
+<!-- ===== SERVICES SECTION ===== -->
+<section class="services">
+  <h2>Services</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>UI/UX Design</h3>
+      <p>Clean, user-focused layouts with modern design principles.</p>
+    </div>
+
+    <div class="card">
+      <h3>Frontend Development</h3>
+      <p>Responsive websites using HTML, CSS, JavaScript and React.</p>
+    </div>
+
+    <div class="card">
+      <h3>Performance</h3>
+      <p>Fast and optimized websites for better user experience.</p>
+    </div>
+
+    <div class="card">
+      <h3>Backend Development</h3>
+      <p>Building secure and scalable server-side applications using Node.js,
+    Express, and databases like MongoDB and MySQL.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+
+<section class="about" id="aboutMe">
+
+  <h2>About Me</h2>
+
+  <div class="about-container">
+
+    <!-- LEFT SIDE (TEXT) -->
+    <div class="about-text">
+
+      <h3>Turning Curiosity into Code 🚀</h3>
+
+      <p>
+        My journey into tech started with curiosity — understanding how things work.
+        Today, I'm a <span>Full Stack Developer</span> and a Software Development
+        student at Bow Valley College.
+      </p>
+
+      <p>
+        I've built projects using <span>React, Node.js, JavaScript, and MongoDB</span>,
+        focusing on clean design and real-world functionality.
+      </p>
+
+      <p>
+        Currently, I'm learning <span>C++</span> and strengthening my core programming skills.
+      </p>
+
+      <button onclick="scrollToContact()">Let's Connect</button>
+
+    </div>
+
+    <!-- RIGHT SIDE  -->
+    <div class="about-cards">
+
+      <div class="about-card">
+        <h4>💻 Projects</h4>
+        <p>15+ real-world builds</p>
+      </div>
+
+      <div class="about-card">
+        <h4>⚡ Skills</h4>
+        <p>Full Stack Development</p>
+      </div>
+
+      <div class="about-card">
+        <h4>🎓 Learning</h4>
+        <p>C++ & Software Dev</p>
+      </div>
+
+      <div class="about-card">
+        <h4>🌍 Journey</h4>
+        <p>From passion to profession</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="projects">
+  <h2>My Work</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Client Full-Stack Web Application</h3>
+      <p>
+        Developed a full-stack web application for a client 
+        focusing on responsive design, performance, and user experience.
+      </p>
+      <a href="portfolio-project.mp4" target="_blank">Watch Demo</a>
+    </div>
+
+    <div class="card">
+      <h3>Travel Website (Frontend Project)</h3>
+      <p>
+        Built a visually appealing travel website to showcase strong
+        HTML and CSS skills, including layout design and responsiveness
+      </p>
+      <a href="travel.mp4" target="_blank">Watch Demo</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="education">
+  <h2>Education</h2>
+
+  <ul class="education-list">
+  <li>
+    <div class="edu-left">
+      <strong>Software Development Diploma</strong><br>
+      Bow Valley College, Calgary
+    </div>
+    <span class="edu-date">Present</span>
+  </li>
+
+  <li>
+    <div class="edu-left">
+      <strong>Web Development and Design Diploma</strong><br>
+      India
+    </div>
+    <span class="edu-date">2024 – 2025</span>
+  </li>
+
+  <li>
+    <div class="edu-left">
+      <strong>Secondary Education</strong><br>
+      State Public School, India
+    </div>
+    <span class="edu-date">2022 – 2024</span>
+  </li>
+</ul>
+</section>
+
+
+
+
+<!-- ===== SKILLS SECTION ===== -->
+<section id="skills">
+
+  <div class="floating-background"></div>
+
+  <div class="myskills">
+    <h2>MY SKILLS</h2>
+    <p class="cursor typewriter-animation" id="typing"></p>
+  </div>
+
+  <div class="line_content" id="skillsContainer"></div>
+
+  <div class="circle_section" id="circleContainer"></div>
+
+</section>
+
+<section class="skills-table-section">
+  <h2>Technical Skills</h2>
+
+  <table class="skills-table">
+    <tr>
+      <th>Technology</th>
+      <th>Proficiency</th>
+      <th>Level</th>
+    </tr>
+
+    <tr>
+      <td>HTML</td>
+      <td>Advanced</td>
+      <td>95%</td>
+    </tr>
+
+    <tr>
+      <td>JavaScript</td>
+      <td>Advanced</td>
+      <td>85%</td>
+    </tr>
+
+    <tr>
+      <td>React</td>
+      <td>Advanced</td>
+      <td>90%</td>
+    </tr>
+
+    <tr>
+      <td>Node.js</td>
+      <td>Intermediate</td>
+      <td>83%</td>
+    </tr>
+
+    <tr>
+      <td>C++</td>
+      <td>Intermediate</td>
+      <td>75%</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact">
+  <h2>Contact</h2>
+  <p>Email: amritkalsi335@gmail.com</p>
+</section>
+
+<footer class="footer">
+<p>© 2026 @AmritKaur. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+<!-- ChatGPT (OpenAI) – Used for debugging assistance, code optimization, UI structure improvement, emoji selection for the website design, and conceptual guidance for developing a mini-game inspired by Purble Place.
+W3Schools – CSS Reference
+https://www.w3schools.com/css/default.asp
+GeeksforGeeks – CSS Animations
+https://www.geeksforgeeks.org/css/css-animations/
+MDN Web Docs – HTML Elements Reference
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+MDN Web Docs – JavaScript Guide (DOM Manipulation & Events)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+W3Schools – JavaScript HTML DOM
+https://www.w3schools.com/js/js_htmldom.asp
+GeeksforGeeks – JavaScript DOM Manipulation
+https://www.geeksforgeeks.org/javascript/javascript-dom-introduction/ -->
